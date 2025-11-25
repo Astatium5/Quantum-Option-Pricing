@@ -1,0 +1,24 @@
+name: quantum
+channels:
+  - conda-forge
+dependencies:
+  # 1. Core System & Python Version
+  - python=3.11
+  - pip
+  
+  # 2. Jupyter Ecosystem
+  - jupyter
+  - ipykernel
+  - nb_conda_kernels
+
+  # 3. Python Libraries
+  - pip:
+      - qiskit>=1.0.0
+      - qiskit-finance
+      - qiskit-algorithms
+      - qiskit-aer
+      - qiskit-ibm-runtime
+      - matplotlib
+      - numpy
+      - pylatexenc
+      - python-dotenv
