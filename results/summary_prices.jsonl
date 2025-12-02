@@ -1,0 +1,7 @@
+{"Method": "Classical MC (benchmark)", "Estimate": 0.1697456702577838, "CI Low": NaN, "CI High": NaN, "samples": 10000000}
+{"Method": "IAE (StatevectorSampler, ideal, manually constructed circuit)", "Estimate": 0.16590494689644905, "CI Low": 0.15716441817370347, "CI High": 0.17464547561919447, "circuit_width": 5}
+{"Method": "IAE (StatevectorSampler, ideal, library circuit)", "Estimate": 0.1699994387247553, "CI Low": 0.16124924545465957, "CI High": 0.17874963199485114, "circuit_width": 7}
+{"Method": "3Q Direct (Noisy Aer, ibm_fez)", "Estimate": 0.239226626453986, "CI Low": 0.21208713153212372, "CI High": 0.26636612137584825, "circuit_width": 3, "shots": 4096}
+{"Method": "3Q Direct (IBM Hardware, ibm_fez)", "Estimate": 0.2508092936565998, "CI Low": 0.22358540739523605, "CI High": 0.2780331799179636, "circuit_width": 3, "shots": 4096}
+{"Method": "IAE (5q) Noisy Aer (ibm_fez)", "Estimate": 0.21540423348266996, "CI Low": 0.17240534327594917, "CI High": 0.2584031236893907, "shots": 4096, "circuit_width": 5}
+{"Method": "IAE (5q) IBM Hardware (ibm_fez)", "Estimate": 0.23819402677295984, "CI Low": 0.19502223535424415, "CI High": 0.28136581819167555, "shots": 4096, "circuit_width": 5}
